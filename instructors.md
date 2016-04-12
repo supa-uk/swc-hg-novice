@@ -72,8 +72,12 @@ working alone or in teams because it is
     on their desktop at some point during this lesson.
 
 *   The [Conflicts](03-conflict.html) section of the lesson uses the [KDiff3](http://kdiff3.sourceforge.net/) graphical diff/merge tool.
-    The workshop installation instructions should include directions for OS/X and Linux users to install KDiff3.
+    The workshop installation instructions should include directions for OS X and Linux users to install KDiff3.
     For Windows users it is bundled with TortoiseHg.
+    The Mercurial wiki has some [notes on using Mercurial with kdiff3](https://www.mercurial-scm.org/wiki/KDiff3).
+    On OS X, download kdiff3 and drag the `.app` directory somewhere
+    suitable (such as into `/Applications`), then link it into the path with
+    `cd ~/local/bin; ln -s /Applications/kdiff3.app/Contents/MacOS/kdiff3 kdiff3`.
 
 *   When appropriate, explain that we teach Mercurial rather than CVS,
     Subversion,
@@ -123,7 +127,8 @@ working alone or in teams because it is
 
 *   When you do `hg status`,
     Mac users may see a `.DS_Store` file showing as untracked.
-    This a file that Mac OS creates in each directory.
+    This a file that the OS X Finder creates in each directory that it
+    displays.  It's worth while routinely adding this file to `.hgignore`.
 
 **Tracking Changes to Files**
 
@@ -149,7 +154,7 @@ working alone or in teams because it is
     and provides a web interface to interact with repos that they host.
 
 *   If your learners are advanced enough to be comfortable with SSH,
-    tell them they can use keys to authenticate on GitHub instead of passwords,
+    tell them they can use keys to authenticate on Bitbucket instead of passwords,
     but don't try to set this up during class: it takes too long,
     and is a distraction from the core ideas of the lesson.
 
