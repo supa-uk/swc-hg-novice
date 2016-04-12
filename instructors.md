@@ -78,6 +78,10 @@ working alone or in teams because it is
     On OS X, download kdiff3 and drag the `.app` directory somewhere
     suitable (such as into `/Applications`), then link it into the path with
     `cd ~/local/bin; ln -s /Applications/kdiff3.app/Contents/MacOS/kdiff3 kdiff3`.
+    The default OS X Mercurial client has `merge` use the built-in
+    (ie, system-default) `FileMerge` tool to do the default, and this
+    might be preferrable to requiring a separate (and clearly _very_
+    non-platform-native tool.
 
 *   When appropriate, explain that we teach Mercurial rather than CVS,
     Subversion,
