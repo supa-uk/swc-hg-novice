@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Version Control with Mercurial
-subtitle: Reference
+layout: reference
+permalink: /reference/
 ---
+
 ## A Better Kind of Backup
 
 *   Create a `~/.hgrc`
@@ -56,6 +56,7 @@ subtitle: Reference
 
 ## Glossary
 
+{:auto_ids}
 changeset
 :   A group of changes to one or more files
     that are [committed](#commit) to a [version control](#version-control) [repository](#repository)
