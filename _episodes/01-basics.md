@@ -6,7 +6,7 @@ questions:
 - "What is version control and why should I use it?"
 objectives:
 - "Understand the benefits of an automated version control system."
-- "Understand the basics of how [Mercurial](http://mercurial.selenic.com/) works."
+- "Understand the basics of how [Mercurial](https://www.mercurial-scm.org/) works."
 keypoints:
 - "Version control is like an unlimited 'undo'."
 - "Version control also allows many people to work in parallel."
@@ -61,7 +61,7 @@ across different computers facilitating collaboration among different people.
 > Automated version control systems are nothing new. Tools like RCS, CVS, or
 > Subversion are considered now legacy systems, offering more limited
 > capabilities than modern tools, such as
-> [Mercurial](http://mercurial.selenic.com/) and
+> [Mercurial](https://www.mercurial-scm.org/) and
 > [Git](http://swcarpentry.github.io/git-novice/).
 > In particular,
 > the latter are *distributed*, meaning that they don't need a centralized
