@@ -59,7 +59,7 @@ across different computers facilitating collaboration among different people.
 > ## The Long History of Version Control Systems
 >
 > Automated version control systems are nothing new. Tools like RCS, CVS, or
-> Subversion are considered now legacy systems, offering more limited
+> Subversion are now considered legacy systems, offering more limited
 > capabilities than modern tools, such as
 > [Mercurial](https://www.mercurial-scm.org/) and
 > [Git](http://swcarpentry.github.io/git-novice/).

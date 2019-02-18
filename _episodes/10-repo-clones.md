@@ -68,7 +68,7 @@ NEMO Ocean Engine, Version 3.4. Madec G., et al. 2012.
 Tell Mercurial to track our new file,
 and commit it:
 
-~~
+~~~
 $ hg add biblio.txt
 $ hg commit -m"Start creating bibliography for the forecast paper."
 ~~~
